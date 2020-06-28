@@ -61,6 +61,8 @@ class Solution {
         
         // Step 2 : This step marks the number we have seen, by setting its index 
         // position to a negative number 
+        // e.g. if nums[i] = 7, since 7 should come at index 6 (that's why - 1, array indexes starts with 0)
+        // we mark nums[6] = nums[6] * -1 (if nums[6] was not already negative)
         for(int i = 0; i < n; i++) {
             int index = Math.abs(nums[i]) - 1;
             // if its already negative, we don't do anything
