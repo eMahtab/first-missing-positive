@@ -70,7 +70,7 @@ class Solution {
         
         // Step 3 : Finally, look for a non negative number in the array
         // If we find an index i, such that nums[i] is positive, that means
-        // we didn't see the number that should come at this place
+        // we didn't see the number which should come at this index i
         // the number that should come at index i should be i+1, so we return i+1
         for(int i = 0; i < n; i++) {
             if(nums[i] > 0) return i + 1;
