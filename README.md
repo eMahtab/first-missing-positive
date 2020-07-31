@@ -85,5 +85,13 @@ class Solution {
 }
 ```
 
+### Tip :
+Run your code through some examples :
+```
+[1, 2, 3],
+[1, 2, 2],
+[1, 3, 3],
+[2, 2, 2]
+```
 # References :
 https://www.youtube.com/watch?v=9SnkdYXNIzM
